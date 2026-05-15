@@ -1,0 +1,9 @@
+node_modules/
+dist/
+.claude/
+.DS_Store
+*.tsbuildinfo
+vite.config.d.ts
+vite.config.js
+*.tmp
+.env

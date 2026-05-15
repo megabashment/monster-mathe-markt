@@ -1,0 +1,851 @@
+{
+  "version": "1.2.0",
+  "generatedAt": "2026-04-27T14:06:17.773984Z",
+  "assets": {
+    "monsters": {
+      "blubbo": {
+        "id": "blubbo",
+        "name": "Blubbo",
+        "path": "assets/monsters/monster-blubbo-idle-64px-v1.png",
+        "northPath": "assets/monsters/monster-blubbo-north-64px-v1.png",
+        "width": 84,
+        "height": 84,
+        "frames": 1,
+        "directions": 8,
+        "category": "monsters",
+        "description": "Blauer Pinguin-artiger Wasser-Typ",
+        "tags": [
+          "cute",
+          "blue",
+          "water",
+          "pokemon"
+        ]
+      },
+      "zappy": {
+        "id": "zappy",
+        "name": "Zappy",
+        "path": "assets/monsters/monster-zappy-idle-64px-v1.png",
+        "northPath": "assets/monsters/monster-zappy-north-64px-v1.png",
+        "width": 108,
+        "height": 108,
+        "frames": 1,
+        "directions": 8,
+        "category": "monsters",
+        "description": "Gelbes Elektro-Monster",
+        "tags": [
+          "cute",
+          "yellow",
+          "electric",
+          "pokemon"
+        ]
+      },
+      "bubsy": {
+        "id": "bubsy",
+        "name": "Bubsy",
+        "path": "assets/monsters/monster-bubsy-idle-64px-v1.png",
+        "northPath": "assets/monsters/monster-bubsy-north-64px-v1.png",
+        "width": 100,
+        "height": 100,
+        "frames": 1,
+        "directions": 8,
+        "category": "monsters",
+        "description": "Pinkes rundes Fee-Monster",
+        "tags": [
+          "cute",
+          "pink",
+          "fairy",
+          "pokemon"
+        ]
+      },
+      "flarky": {
+        "id": "flarky",
+        "name": "Flarky",
+        "path": "assets/monsters/monster-flarky-idle-64px-v1.png",
+        "northPath": "assets/monsters/monster-flarky-north-64px-v1.png",
+        "width": 104,
+        "height": 104,
+        "frames": 1,
+        "directions": 8,
+        "category": "monsters",
+        "description": "Rotes Feuer-Monster mit Flammenschwanz",
+        "tags": [
+          "cute",
+          "red",
+          "fire",
+          "pokemon"
+        ]
+      },
+      "mossy": {
+        "id": "mossy",
+        "name": "Mossy",
+        "path": "assets/monsters/monster-mossy-idle-64px-v1.png",
+        "northPath": "assets/monsters/monster-mossy-north-64px-v1.png",
+        "width": 112,
+        "height": 112,
+        "frames": 1,
+        "directions": 8,
+        "category": "monsters",
+        "description": "Grünes Gras-Monster mit Blätterohren",
+        "tags": [
+          "cute",
+          "green",
+          "grass",
+          "pokemon"
+        ]
+      },
+      "crysto": {
+        "id": "crysto",
+        "name": "Crysto",
+        "path": "assets/monsters/monster-crysto-idle-64px-v1.png",
+        "northPath": "assets/monsters/monster-crysto-north-64px-v1.png",
+        "width": 104,
+        "height": 104,
+        "frames": 1,
+        "directions": 8,
+        "category": "monsters",
+        "description": "Hellblaues Eis-Kristall-Monster",
+        "tags": [
+          "cute",
+          "blue",
+          "ice",
+          "crystal",
+          "pokemon"
+        ]
+      },
+      "stinki": {
+        "id": "stinki",
+        "name": "Stinki",
+        "path": "assets/monsters/monster-stinki-idle-64px-v1.png",
+        "northPath": "assets/monsters/monster-stinki-north-64px-v1.png",
+        "width": 124,
+        "height": 124,
+        "frames": 1,
+        "directions": 8,
+        "category": "monsters",
+        "description": "Lila Pilz-Monster mit Wolken",
+        "tags": [
+          "cute",
+          "purple",
+          "poison",
+          "mushroom",
+          "pokemon"
+        ]
+      },
+      "mangoman": {
+        "id": "mangoman",
+        "name": "Mangoman",
+        "path": "assets/monsters/monster-mangoman-idle-64px-v1.png",
+        "northPath": "assets/monsters/monster-mangoman-north-64px-v1.png",
+        "width": 108,
+        "height": 108,
+        "frames": 1,
+        "directions": 8,
+        "category": "monsters",
+        "description": "Oranges tropisches Frucht-Monster",
+        "tags": [
+          "cute",
+          "orange",
+          "tropical",
+          "fruit",
+          "pokemon"
+        ]
+      },
+      "mooni": {
+        "id": "mooni",
+        "name": "Mooni",
+        "path": "assets/monsters/monster-mooni-idle-64px-v1.png",
+        "northPath": "assets/monsters/monster-mooni-north-64px-v1.png",
+        "width": 108,
+        "height": 108,
+        "frames": 1,
+        "directions": 8,
+        "category": "monsters",
+        "description": "Indigo Mond-Psycho-Monster mit Sternen",
+        "tags": [
+          "cute",
+          "purple",
+          "moon",
+          "psychic",
+          "pokemon"
+        ]
+      },
+      "flambo": {
+        "id": "flambo",
+        "name": "Flambo",
+        "path": "assets/monsters/monster-flambo-idle-64px-v1.png",
+        "northPath": "assets/monsters/monster-flambo-north-64px-v1.png",
+        "width": 104,
+        "height": 104,
+        "frames": 1,
+        "directions": 8,
+        "category": "monsters",
+        "description": "Rote Feuer-Eidechse mit Flammenschwanz",
+        "tags": [
+          "cute",
+          "red",
+          "fire",
+          "lizard",
+          "pokemon"
+        ]
+      },
+      "weedy": {
+        "id": "weedy",
+        "name": "Weedy",
+        "path": "assets/monsters/monster-weedy-idle-64px-v1.png",
+        "northPath": "assets/monsters/monster-weedy-north-64px-v1.png",
+        "width": 112,
+        "height": 112,
+        "frames": 1,
+        "directions": 8,
+        "category": "monsters",
+        "description": "Grünes Gras-Monster mit Sonnenblumenkopf",
+        "tags": [
+          "cute",
+          "green",
+          "grass",
+          "sunflower",
+          "pokemon"
+        ]
+      },
+      "frosty": {
+        "id": "frosty",
+        "name": "Frosty",
+        "path": "assets/monsters/monster-frosty-idle-64px-v1.png",
+        "northPath": "assets/monsters/monster-frosty-north-64px-v1.png",
+        "width": 96,
+        "height": 96,
+        "frames": 1,
+        "directions": 8,
+        "category": "monsters",
+        "description": "Weißes Schneeball-Eis-Monster mit Bärenohren",
+        "tags": [
+          "cute",
+          "white",
+          "ice",
+          "snow",
+          "pokemon"
+        ]
+      },
+      "ripple": {
+        "id": "ripple",
+        "name": "Ripple",
+        "path": "assets/monsters/monster-ripple-idle-128px-v1.png",
+        "northPath": "assets/monsters/monster-ripple-north-128px-v1.png",
+        "width": 124,
+        "height": 124,
+        "frames": 1,
+        "directions": 8,
+        "category": "monsters",
+        "description": "Rundes blaues Wassertropfen-Monster mit Flossen",
+        "tags": [
+          "cute",
+          "blue",
+          "water",
+          "pokemon"
+        ]
+      },
+      "corali": {
+        "id": "corali",
+        "name": "Corali",
+        "path": "assets/monsters/monster-corali-idle-128px-v2.png",
+        "northPath": "assets/monsters/monster-corali-north-128px-v2.png",
+        "width": 124,
+        "height": 124,
+        "frames": 1,
+        "directions": 8,
+        "category": "monsters",
+        "description": "Pinkes Meereskreatur-Monster mit Korallenhorn",
+        "tags": [
+          "cute",
+          "pink",
+          "water",
+          "coral",
+          "pokemon"
+        ]
+      },
+      "sprouty": {
+        "id": "sprouty",
+        "name": "Sprouty",
+        "path": "assets/monsters/monster-sprouty-idle-128px-v2.png",
+        "northPath": "assets/monsters/monster-sprouty-north-128px-v2.png",
+        "width": 124,
+        "height": 124,
+        "frames": 1,
+        "directions": 8,
+        "category": "monsters",
+        "description": "Rundes grünes Gras-Monster mit großem Blatt auf dem Kopf",
+        "tags": [
+          "cute",
+          "green",
+          "grass",
+          "pokemon"
+        ]
+      },
+      "aquali": {
+        "id": "aquali",
+        "name": "Aquali",
+        "path": "assets/monsters/monster-aquali-idle-128px-v2.png",
+        "northPath": "assets/monsters/monster-aquali-north-128px-v2.png",
+        "width": 124,
+        "height": 124,
+        "frames": 1,
+        "directions": 8,
+        "category": "monsters",
+        "description": "Pummeliges Otter-artiges Wasser-Monster in Teal",
+        "tags": [
+          "cute",
+          "teal",
+          "water",
+          "otter",
+          "pokemon"
+        ]
+      },
+      "embry": {
+        "id": "embry",
+        "name": "Embry",
+        "path": "assets/monsters/monster-embry-idle-80px-chibi.png",
+        "northPath": "assets/monsters/monster-embry-north-80px-chibi.png",
+        "width": 80,
+        "height": 80,
+        "frames": 1,
+        "directions": 8,
+        "category": "monsters",
+        "description": "Rundes glühendes Funken-Monster mit Flamme auf dem Kopf",
+        "tags": [
+          "cute",
+          "orange",
+          "fire",
+          "ember",
+          "pokemon"
+        ]
+      },
+      "scorchi": {
+        "id": "scorchi",
+        "name": "Scorchi",
+        "path": "assets/monsters/monster-scorchi-idle-80px-chibi.png",
+        "northPath": "assets/monsters/monster-scorchi-north-80px-chibi.png",
+        "width": 80,
+        "height": 80,
+        "frames": 1,
+        "directions": 8,
+        "category": "monsters",
+        "description": "Roter Salamander mit orangem Flammenschwanz",
+        "tags": [
+          "cute",
+          "red",
+          "fire",
+          "salamander",
+          "pokemon"
+        ]
+      },
+      "volky": {
+        "id": "volky",
+        "name": "Volky",
+        "path": "assets/monsters/monster-volky-idle-80px-chibi.png",
+        "northPath": "assets/monsters/monster-volky-north-80px-chibi.png",
+        "width": 80,
+        "height": 80,
+        "frames": 1,
+        "directions": 8,
+        "category": "monsters",
+        "description": "Rundes Vulkan-Monster mit Lava-Rissen und Magma-Orange",
+        "tags": [
+          "cute",
+          "grey",
+          "fire",
+          "volcano",
+          "pokemon"
+        ]
+      },
+      "fernly": {
+        "id": "fernly",
+        "name": "Fernly",
+        "path": "assets/monsters/monster-fernly-idle-80px-chibi.png",
+        "northPath": "assets/monsters/monster-fernly-north-80px-chibi.png",
+        "width": 80,
+        "height": 80,
+        "frames": 1,
+        "directions": 8,
+        "category": "monsters",
+        "description": "Grünes Farn-Monster mit spiralförmigen Ranken",
+        "tags": [
+          "cute",
+          "green",
+          "grass",
+          "fern",
+          "pokemon"
+        ]
+      },
+      "clovey": {
+        "id": "clovey",
+        "name": "Clovey",
+        "path": "assets/monsters/monster-clovey-idle-80px-chibi.png",
+        "northPath": "assets/monsters/monster-clovey-north-80px-chibi.png",
+        "width": 80,
+        "height": 80,
+        "frames": 1,
+        "directions": 8,
+        "category": "monsters",
+        "description": "Rundes hellgrünes Kleeblatt-Monster mit Kleeblatt-Muster",
+        "tags": [
+          "cute",
+          "green",
+          "grass",
+          "clover",
+          "pokemon"
+        ]
+      },
+      "flambaro": {
+        "id": "flambaro",
+        "name": "Flambaro",
+        "path": "assets/monsters/monster-flambaro-idle-80px-chibi.png",
+        "northPath": "assets/monsters/monster-flambaro-north-80px-chibi.png",
+        "width": 80,
+        "height": 80,
+        "frames": 1,
+        "directions": 8,
+        "category": "monsters",
+        "description": "Schlankes Feuerdrachen-Monster mit Flammenkamm und Feuerschweif",
+        "tags": [
+          "cute",
+          "orange",
+          "fire",
+          "dragon",
+          "pokemon"
+        ]
+      },
+      "chompy": {
+        "id": "chompy",
+        "name": "Chompy",
+        "width": 124,
+        "height": 124,
+        "tags": [
+          "water",
+          "crocodile"
+        ],
+        "path": "assets/monsters/monster-chompy-idle-128px-v1.png",
+        "northPath": "assets/monsters/monster-chompy-north-128px-v1.png"
+      },
+      "foxy": {
+        "id": "foxy",
+        "name": "Foxy",
+        "width": 124,
+        "height": 124,
+        "tags": [
+          "normal",
+          "fox"
+        ],
+        "path": "assets/monsters/monster-foxy-idle-128px-v1.png",
+        "northPath": "assets/monsters/monster-foxy-north-128px-v1.png"
+      },
+      "flamara": {
+        "id": "flamara",
+        "name": "Flamara",
+        "width": 124,
+        "height": 124,
+        "tags": [
+          "fire",
+          "bird"
+        ],
+        "path": "assets/monsters/monster-flamara-idle-128px-v1.png",
+        "northPath": "assets/monsters/monster-flamara-north-128px-v1.png"
+      },
+      "gengar": {
+        "id": "gengar",
+        "name": "Gengar",
+        "width": 124,
+        "height": 124,
+        "tags": [
+          "ghost",
+          "purple"
+        ],
+        "path": "assets/monsters/monster-gengar-idle-128px-v1.png",
+        "northPath": "assets/monsters/monster-gengar-north-128px-v1.png"
+      },
+      "zaptos": {
+        "id": "zaptos",
+        "name": "Zaptos",
+        "width": 124,
+        "height": 124,
+        "tags": [
+          "electric",
+          "bird"
+        ],
+        "path": "assets/monsters/monster-zaptos-idle-128px-v1.png",
+        "northPath": "assets/monsters/monster-zaptos-north-128px-v1.png"
+      },
+      "mewtwo": {
+        "id": "mewtwo",
+        "name": "Mewtwo",
+        "width": 124,
+        "height": 124,
+        "tags": [
+          "psychic",
+          "purple"
+        ],
+        "path": "assets/monsters/monster-mewtwo-idle-128px-v1.png",
+        "northPath": "assets/monsters/monster-mewtwo-north-128px-v1.png"
+      },
+      "alakazam": {
+        "id": "alakazam",
+        "name": "Alakazam",
+        "width": 124,
+        "height": 124,
+        "tags": [
+          "psychic",
+          "brown"
+        ],
+        "path": "assets/monsters/monster-alakazam-idle-128px-v1.png",
+        "northPath": "assets/monsters/monster-alakazam-north-128px-v1.png"
+      },
+      "porygon": {
+        "id": "porygon",
+        "name": "Porygon",
+        "width": 124,
+        "height": 124,
+        "tags": [
+          "normal",
+          "pink",
+          "digital"
+        ],
+        "path": "assets/monsters/monster-porygon-idle-128px-v1.png",
+        "northPath": "assets/monsters/monster-porygon-north-128px-v1.png"
+      },
+      "tidaros": {
+        "id": "tidaros",
+        "name": "Tidaros",
+        "path": "assets/monsters/monster-tidaros-idle-104px-v1.png",
+        "northPath": "assets/monsters/monster-tidaros-north-104px-v1.png",
+        "width": 104,
+        "height": 104,
+        "frames": 1,
+        "directions": 8,
+        "category": "monsters",
+        "description": "Legendäres Wasser-Wesen mit Suicune-artigen Ribbons und Kristall-Stirn",
+        "tags": [
+          "legendary",
+          "blue",
+          "water",
+          "pokemon"
+        ]
+      },
+      "pyragon": {
+        "id": "pyragon",
+        "name": "Pyragon",
+        "path": "assets/monsters/monster-pyragon-idle-104px-v1.png",
+        "northPath": "assets/monsters/monster-pyragon-north-104px-v1.png",
+        "width": 104,
+        "height": 104,
+        "frames": 1,
+        "directions": 8,
+        "category": "monsters",
+        "description": "Legendärer Drachen-Typ mit vulkanischem Körper und lodernder Flammenmähne",
+        "tags": [
+          "legendary",
+          "red",
+          "fire",
+          "dragon",
+          "pokemon"
+        ]
+      },
+      "sylvara": {
+        "id": "sylvara",
+        "name": "Sylvara",
+        "path": "assets/monsters/monster-sylvara-idle-104px-v1.png",
+        "northPath": "assets/monsters/monster-sylvara-north-104px-v1.png",
+        "width": 104,
+        "height": 104,
+        "frames": 1,
+        "directions": 8,
+        "category": "monsters",
+        "description": "Legendäre Waldgottheit mit Xerneas-artigem Geweih aus lebenden Ästen",
+        "tags": [
+          "legendary",
+          "green",
+          "grass",
+          "pokemon"
+        ]
+      },
+      "drako": {
+        "id": "drako",
+        "name": "Drako",
+        "path": "assets/monsters/monster-drako-idle-124px-v1.png",
+        "northPath": "assets/monsters/monster-drako-north-124px-v1.png",
+        "width": 124,
+        "height": 124,
+        "frames": 1,
+        "directions": 8,
+        "category": "monsters",
+        "description": "Mächtiger Feuerdrache mit Flügeln und brennendem Schweif — das stärkste Legendary",
+        "tags": [
+          "legendary",
+          "orange",
+          "fire",
+          "dragon",
+          "pokemon"
+        ]
+      }
+    },
+    "objects": {
+      "coin-gold": {
+        "id": "coin-gold",
+        "name": "Goldmünze",
+        "path": "assets/objects/object-coin-gold-32px-v1.png",
+        "width": 32,
+        "height": 32,
+        "category": "objects",
+        "objectType": "collectible",
+        "description": "Sammelbare Goldmünze als Belohnung",
+        "tags": [
+          "collectible",
+          "currency",
+          "reward"
+        ]
+      },
+      "panel-task": {
+        "id": "panel-task",
+        "name": "Aufgaben-Panel",
+        "path": "assets/objects/object-panel-task-128px-v1.png",
+        "width": 128,
+        "height": 128,
+        "category": "objects",
+        "objectType": "decoration",
+        "description": "Panel für Aufgaben-Anzeige",
+        "tags": [
+          "ui",
+          "panel"
+        ]
+      },
+      "icon-coin": {
+        "id": "icon-coin",
+        "name": "Coin-Icon",
+        "path": "assets/objects/object-icon-coin-32px-v1.png",
+        "width": 32,
+        "height": 32,
+        "category": "objects",
+        "objectType": "decoration",
+        "description": "Kleines Münz-Icon für Score-Anzeige",
+        "tags": [
+          "ui",
+          "icon",
+          "coin"
+        ]
+      },
+      "coin-1e": {
+        "id": "coin-1e",
+        "name": "1-Euro-Münze",
+        "path": "assets/objects/object-coin-1e-32px-v2.png",
+        "width": 32,
+        "height": 32,
+        "category": "objects",
+        "objectType": "collectible",
+        "description": "1-Euro-Münze (gold außen, silber innen) für Geldaufgaben",
+        "tags": [
+          "coin",
+          "money",
+          "math-visual",
+          "euro"
+        ]
+      },
+      "coin-2e": {
+        "id": "coin-2e",
+        "name": "2-Euro-Münze",
+        "path": "assets/objects/object-coin-2e-32px-v2.png",
+        "width": 32,
+        "height": 32,
+        "category": "objects",
+        "objectType": "collectible",
+        "description": "2-Euro-Münze (silber außen, gold innen) für Geldaufgaben",
+        "tags": [
+          "coin",
+          "money",
+          "math-visual",
+          "euro"
+        ]
+      },
+      "coin-50c": {
+        "id": "coin-50c",
+        "name": "50-Cent-Münze",
+        "path": "assets/objects/object-coin-50c-32px-v1.png",
+        "width": 32,
+        "height": 32,
+        "category": "objects",
+        "objectType": "collectible",
+        "description": "50-Cent-Münze (bronze) für Geldaufgaben",
+        "tags": [
+          "coin",
+          "money",
+          "math-visual",
+          "cent"
+        ]
+      },
+      "coin-20c": {
+        "id": "coin-20c",
+        "name": "20-Cent-Münze",
+        "path": "assets/objects/object-coin-20c-32px-v1.png",
+        "width": 32,
+        "height": 32,
+        "category": "objects",
+        "objectType": "collectible",
+        "description": "20-Cent-Münze (bronze) für Geldaufgaben",
+        "tags": [
+          "coin",
+          "money",
+          "math-visual",
+          "cent"
+        ]
+      },
+      "coin-10c": {
+        "id": "coin-10c",
+        "name": "10-Cent-Münze",
+        "path": "assets/objects/object-coin-10c-32px-v1.png",
+        "width": 32,
+        "height": 32,
+        "category": "objects",
+        "objectType": "collectible",
+        "description": "10-Cent-Münze (bronze) für Geldaufgaben",
+        "tags": [
+          "coin",
+          "money",
+          "math-visual",
+          "cent"
+        ]
+      },
+      "item-apple": {
+        "id": "item-apple",
+        "name": "Apfel",
+        "path": "assets/objects/object-item-apple-32px-v1.png",
+        "width": 32,
+        "height": 32,
+        "category": "objects",
+        "objectType": "collectible",
+        "description": "Apfel für visuelle Regalaufgaben",
+        "tags": [
+          "item",
+          "shelf",
+          "math-visual"
+        ]
+      },
+      "item-bottle": {
+        "id": "item-bottle",
+        "name": "Saftflasche",
+        "path": "assets/objects/object-item-bottle-32px-v1.png",
+        "width": 32,
+        "height": 32,
+        "category": "objects",
+        "objectType": "collectible",
+        "description": "Saftflasche für visuelle Regalaufgaben",
+        "tags": [
+          "item",
+          "shelf",
+          "math-visual"
+        ]
+      },
+      "item-milk": {
+        "id": "item-milk",
+        "name": "Milchkarton",
+        "path": "assets/objects/object-item-milk-32px-v1.png",
+        "width": 32,
+        "height": 32,
+        "category": "objects",
+        "objectType": "collectible",
+        "description": "Milchkarton für visuelle Regalaufgaben",
+        "tags": [
+          "item",
+          "shelf",
+          "math-visual"
+        ]
+      },
+      "item-banana": {
+        "id": "item-banana",
+        "name": "Banane",
+        "path": "assets/objects/object-item-banana-40px-v1.png",
+        "width": 40,
+        "height": 40,
+        "category": "objects",
+        "objectType": "collectible",
+        "description": "Banane für visuelle Regalaufgaben",
+        "tags": [
+          "item",
+          "shelf",
+          "math-visual"
+        ]
+      },
+      "item-can": {
+        "id": "item-can",
+        "name": "Konservendose",
+        "path": "assets/objects/object-item-can-32px-v1.png",
+        "width": 32,
+        "height": 32,
+        "category": "objects",
+        "objectType": "collectible",
+        "description": "Konservendose für visuelle Regalaufgaben",
+        "tags": [
+          "item",
+          "shelf",
+          "math-visual"
+        ]
+      },
+      "item-bread": {
+        "id": "item-bread",
+        "name": "Brötchen",
+        "path": "assets/objects/object-item-bread-40px-v1.png",
+        "width": 40,
+        "height": 40,
+        "category": "objects",
+        "objectType": "collectible",
+        "description": "Brötchen für visuelle Regalaufgaben",
+        "tags": [
+          "item",
+          "shelf",
+          "math-visual"
+        ]
+      },
+      "item-cookie-jar": {
+        "id": "item-cookie-jar",
+        "name": "Keksdose",
+        "path": "assets/objects/object-item-cookie-jar-32px-v1.png",
+        "width": 32,
+        "height": 32,
+        "category": "objects",
+        "objectType": "collectible",
+        "description": "Keksdose für visuelle Regalaufgaben",
+        "tags": [
+          "item",
+          "shelf",
+          "math-visual"
+        ]
+      }
+    },
+    "ui": {
+      "background-shop": {
+        "id": "background-shop",
+        "name": "Shop-Hintergrund",
+        "path": "assets/ui/ui-background-shop-400px-v2.png",
+        "width": 400,
+        "height": 200,
+        "category": "ui",
+        "description": "Shop: Tür oben mittig, Tresen links",
+        "tags": [
+          "background",
+          "shop",
+          "ui"
+        ]
+      },
+      "npc-ash-ketchup": {
+        "id": "npc-ash-ketchup",
+        "name": "Ash Ketchup",
+        "path": "assets/ui/npc-ash-ketchup-124px.png",
+        "width": 124,
+        "height": 124,
+        "category": "ui",
+        "description": "Tränke-Händler Ash Ketchup — erscheint zufällig zwischen den Runden",
+        "tags": [
+          "npc",
+          "merchant",
+          "ui"
+        ]
+      }
+    }
+  }
+}
