@@ -24,7 +24,7 @@ class AssetManager {
   async load(): Promise<void> {
     if (this.loaded) return;
 
-    const response = await fetch("/assets.json");
+    const response = await fetch(`${(import.meta as any).env.BASE_URL}assets.json`);
     if (!response.ok) {
       throw new Error(`[AssetManager] Failed to load assets.json: ${response.statusText}`);
     }

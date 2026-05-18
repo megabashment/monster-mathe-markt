@@ -19,6 +19,16 @@
   </head>
   <body>
     <canvas id="game" style="display:block;margin:auto;"></canvas>
+    <div id="debug" style="position:fixed;top:0;left:0;background:#222;color:#0f0;padding:10px;font-size:12px;z-index:9999;max-width:300px;overflow:auto;max-height:100vh;font-family:monospace;"></div>
+    <script>
+      function log(msg) {
+        const el = document.getElementById('debug');
+        el.innerHTML += msg + '<br>';
+        console.log('[DEBUG]', msg);
+      }
+      log('Page loaded');
+      log('BASE_URL: ' + window.location.href);
+    </script>
     <script type="module" src="/src/main.ts"></script>
   </body>
 </html>
