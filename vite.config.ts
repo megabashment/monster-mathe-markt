@@ -1,7 +1,7 @@
 import { defineConfig } from 'vite'
 
 export default defineConfig({
-  base: '/games/mathe-markt/',
+  base: process.env.VITE_BASE_URL || '/',
   server: {
     port: 5173,
   },
